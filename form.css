@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    #f78ca0 0%,
+    #f9748f 19%,
+    #fd868c 60%,
+    #fe9a8b 100%
+  );
+  background-attachment: fixed;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: minmax(150px, 440px);
+  font-family: "Montserrat", sans-serif;
+}
+
+output {
+  background-color: #fff;
+  text-align: center;
+  padding: 0.6rem;
+  font-size: 1.9rem;
+  margin-bottom: 2rem;
+}
+
+span {
+  font-size: 2rem;
+  margin-left: 20;
+}
